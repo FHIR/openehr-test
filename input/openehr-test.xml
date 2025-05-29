@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Start by finding all references to "myig" and updating to appropriate text for your IG, including changing realm -->
+<ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas/R5/fhir-single.xsd">
+  <id value="hl7.fhir.uv.openehr-test"/>
+  <url value="http://hl7.org/fhir/test/openehr-test/ImplementationGuide/hl7.fhir.uv.openehr-test"/>
+  <version value="1.6.6"/>
+  <name value="OpenEHRTestIG"/>
+  <title value="openEHR Test IG"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <publisher value="HL7 FHIR Product Director"/>
+  <contact>
+    <telecom>
+      <!-- Or whatever URL and/or email address(es) are appropriate -->
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This exists to "/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <packageId value="hl7.fhir.uv.openehr-test"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="5.0.0"/>
+  <dependsOn>
+    <uri value="http://openehr.org/fhir/ImplementationGuide/openehr.base"/>
+    <packageId value="openehr.base"/>
+    <version value="dev"/>
+  </dependsOn>
+
+  <definition>
+    <page>
+      <name value="index.html"/>
+      <title value="Home Page"/>
+      <generation value="markdown"/>
+    </page>
+    <!-- copyright year is a mandatory parameter -->
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="copyrightyear"/>
+      </code>    
+      <value value="2025+"/>
+    </parameter>
+    <!-- releaselabel should be the ballot status for HL7-published IGs. -->
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="releaselabel"/>
+      </code>    
+      <value value="Ci-Build 0.1.0"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-resources"/>
+      </code>    
+      <value value="/input/archetypes"/>
+    </parameter>    
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-resource"/>
+      </code>    
+      <value value="/input/archetypes"/>
+    </parameter>      
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-resource"/>
+      </code>    
+      <value value="/input/templates"/>
+    </parameter>       
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-images"/>
+      </code>    
+      <value value="/input/images"/>
+    </parameter>    
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="path-resource"/>
+      </code>    
+      <value value="/input/resources"/>
+    </parameter>   
+  </definition>   
+</ImplementationGuide>

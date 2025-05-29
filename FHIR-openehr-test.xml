@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="" defaultVersion="current" defaultWorkgroup="fhir-i" url="http://hl7.org/fhir/test/openehr-test">
+<version code="current" url=""/>
+<artifactPageExtension value="-definitions"/>
+<artifactPageExtension value="-examples"/>
+<artifactPageExtension value="-mappings"/>
+<artifact id="ValueSet/openEHR-EHR-OBSERVATION.blood-pressure.v2.at1042" key="ValueSet-openEHR-EHR-OBSERVATION.blood-pressure.v2.at1042" name="24HourAverageVS"/>
+<artifact id="StructureDefinition/openEHR-EHR-OBSERVATION.blood-pressure.v2" key="StructureDefinition-openEHR-EHR-OBSERVATION.blood-pressure.v2" name="BloodPressureV2"/>
+<artifact id="CodeSystem/openEHR-EHR-OBSERVATION.blood-pressure.v2.at0013" key="CodeSystem-openEHR-EHR-OBSERVATION.blood-pressure.v2.at0013" name="CuffSizeCS"/>
+<artifact id="ValueSet/openEHR-EHR-OBSERVATION.blood-pressure.v2.at0013" key="ValueSet-openEHR-EHR-OBSERVATION.blood-pressure.v2.at0013" name="CuffSizeVS"/>
+<artifact id="CodeSystem/openEHR-EHR-OBSERVATION.blood-pressure.v2.at1010" key="CodeSystem-openEHR-EHR-OBSERVATION.blood-pressure.v2.at1010" name="DiastolicEndpointCS"/>
+<artifact id="ValueSet/openEHR-EHR-OBSERVATION.blood-pressure.v2.at1010" key="ValueSet-openEHR-EHR-OBSERVATION.blood-pressure.v2.at1010" name="DiastolicEndpointVS"/>
+<artifact id="CodeSystem/openEHR-EHR-OBSERVATION.blood-pressure.v2.at0014" key="CodeSystem-openEHR-EHR-OBSERVATION.blood-pressure.v2.at0014" name="LocationOfMeasurementCS"/>
+<artifact id="ValueSet/openEHR-EHR-OBSERVATION.blood-pressure.v2.at0014" key="ValueSet-openEHR-EHR-OBSERVATION.blood-pressure.v2.at0014" name="LocationOfMeasurementVS"/>
+<artifact id="CodeSystem/openEHR-EHR-OBSERVATION.blood-pressure.v2.at1035" key="CodeSystem-openEHR-EHR-OBSERVATION.blood-pressure.v2.at1035" name="MethodCS"/>
+<artifact id="ValueSet/openEHR-EHR-OBSERVATION.blood-pressure.v2.at1035" key="ValueSet-openEHR-EHR-OBSERVATION.blood-pressure.v2.at1035" name="MethodVS"/>
+<artifact id="CodeSystem/openEHR-EHR-OBSERVATION.blood-pressure.v2.at0008" key="CodeSystem-openEHR-EHR-OBSERVATION.blood-pressure.v2.at0008" name="PositionCS"/>
+<artifact id="ValueSet/openEHR-EHR-OBSERVATION.blood-pressure.v2.at0008" key="ValueSet-openEHR-EHR-OBSERVATION.blood-pressure.v2.at0008" name="PositionVS"/>
+<artifact id="CodeSystem/openEHR-EHR-OBSERVATION.blood-pressure.v2.at1043" key="CodeSystem-openEHR-EHR-OBSERVATION.blood-pressure.v2.at1043" name="SleepStatusCS"/>
+<artifact id="ValueSet/openEHR-EHR-OBSERVATION.blood-pressure.v2.at1043" key="ValueSet-openEHR-EHR-OBSERVATION.blood-pressure.v2.at1043" name="SleepStatusVS"/>
+<page key="NA" name="(NA)"/>
+<page key="many" name="(many)"/>
+<page key="artifacts" name="Artifacts Summary"/>
+<page key="index" name="Home Page"/>
+<page key="toc" name="Table of Contents"/>
+</specification>
