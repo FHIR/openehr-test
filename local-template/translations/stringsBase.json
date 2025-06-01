@@ -110,6 +110,7 @@
     "QuestionnaireResponses": "Sample completed form",
     "TestQuestionnaire": "Test this Questionnaire",
     "ResponsesQuestionnaire": "Responses for this Questionnaire",
-    "NoQuestionnaireResponses": "There are currently no QuestionnaireResponse instances for this Questionnaire defined in this IG."
+    "NoQuestionnaireResponses": "There are currently no QuestionnaireResponse instances for this Questionnaire defined in this IG.",
+    "ADL": "ADL"
   }
 }

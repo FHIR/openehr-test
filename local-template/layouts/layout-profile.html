@@ -72,6 +72,11 @@
       <li>
         <a href="#tabs-openehr">{{site.data.stringsBase['{{[lang]}}']['OpenEHR']}}</a>
       </li>
+{% if site.data.structuredefinitions["{{[id]}}"].adl %}
+      <li>
+        <a href="#tabs-adl">{{site.data.stringsBase['{{[lang]}}']['ADL']}}</a>
+      </li>
+{% endif %}
 {% endif %}
 {% unless excludexml == 'y' %}
 <!--      <li>
@@ -187,6 +192,16 @@
         </div>
       </div>
     </div>
+{% if site.data.structuredefinitions["{{[id]}}"].adl %}
+    <a name="tabs-adl"> </a>
+    <div id="tabs-adl">
+      <div id="adl">
+        <div id="adl-inner">
+          {% include StructureDefinition-{{[id]}}-adl{{[langsuffix]}}.xhtml %}
+        </div>
+      </div>
+    </div>
+{% endif %}
 {% endif %}
 {% unless excludexml == 'y' %}
 <!--    <a name="tabs-xml"> </a>
@@ -312,9 +327,16 @@
           <b>{{site.data.stringsBase['{{[lang]}}']['OpenEHR']}}</b>
         </p>
         <div id="all-openehr-inner">
-          {% include StructureDefinition-{{[id]}}-eview{{[langsuffix]}}.xhtml %}
+          {% include StructureDefinition-{{[id]}}-eview-all{{[langsuffix]}}.xhtml %}
         </div>
       </div>
+{% if site.data.structuredefinitions["{{[id]}}"].adl %}
+      <div id="all-adl">
+        <div id="all-adl-inner">
+          {% include StructureDefinition-{{[id]}}-adl-all{{[langsuffix]}}.xhtml %}
+        </div>
+      </div>
+{% endif %}
 {% endif %}
 {% unless excludexml == 'y' %}
       <!--<div id="all-xml">
