@@ -16,7 +16,7 @@
       <value value="http://www.hl7.org/Special/committees/fiwg"/>
     </telecom>
   </contact>
-  <description value="This exists to "/>
+  <description value="This exists to test out openEHR models in the IG publisher - demonstrate that they publish ok"/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
