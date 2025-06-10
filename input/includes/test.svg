@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300">
-  <circle cx="150" cy="147.5" r="50" fill="#DA3A00" />
-  <image href="S.svg" />
-  ＜script＞alert("Hello from an SVG")＜/script＞
-  ＜script＞document.getElementById("outside").innerHTML = "Got hacked"＜/script＞
-</svg>
